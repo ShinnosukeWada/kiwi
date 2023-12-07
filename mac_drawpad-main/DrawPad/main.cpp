@@ -1,5 +1,6 @@
 #include "DrawPad.hpp"
 #include <math.h>
+//好きなバンドはマイファスです
 
 void DrawMain()
 {
@@ -37,9 +38,5 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -44, kColorRed);
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
-}
-private void main()
-{
-    Printf("なんて日だ");
 }
 
